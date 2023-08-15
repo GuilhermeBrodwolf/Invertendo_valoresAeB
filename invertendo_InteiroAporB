@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		inteiro a, b, aux
+
+			escreva("digite o número inteiro a: \n")
+			leia(a)
+
+			
+			escreva("digite o número inteiro b: \n")
+			leia(b)
+
+			
+			aux = a
+			a = b
+			b = aux
+
+			escreva("o número A = ", a , " e B = ", b , " foram invertidos")
+
+	}
+}
